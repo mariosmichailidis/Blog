@@ -8,9 +8,11 @@ website:
     right:
       - about.qmd
       - icon: github
+        text: Github
         href: https://github.com/
-      - icon: bluesky
-        href: https://bsky.app/
+      - icon: linkedin
+        text: LinkedIn
+        href: https://www.linkedin.com/in/marios-lazaros-michailidis/
 format:
   html:
     theme:
