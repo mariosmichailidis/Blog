@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Blog</title>
+<link>https://mariosmichailidis.github.io/Blog/</link>
+<atom:link href="https://mariosmichailidis.github.io/Blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>A blog built with Quarto</description>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Mon, 14 Sep 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Day_1</title>
+  <dc:creator>Marios Michailidis</dc:creator>
+  <link>https://mariosmichailidis.github.io/Blog/posts/Day_1/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is my first post in my blog. Today we used git/github, branches and merged files.</p>
+<p>Here’s a picture from sampling on Gotland. <img src="https://mariosmichailidis.github.io/Blog/posts/Day_1/sheep_picture.jpg" class="img-fluid"></p>
+
+
+
+ ]]></description>
+  <category>Day_1</category>
+  <guid>https://mariosmichailidis.github.io/Blog/posts/Day_1/</guid>
+  <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Post With Code</title>
+  <dc:creator>Harlow Malloc</dc:creator>
+  <link>https://mariosmichailidis.github.io/Blog/posts/post-with-code/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is a post with executable code.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://mariosmichailidis.github.io/Blog/posts/post-with-code/</guid>
+  <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://mariosmichailidis.github.io/Blog/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Welcome To My Blog</title>
+  <dc:creator>Tristan O&#39;Malley</dc:creator>
+  <link>https://mariosmichailidis.github.io/Blog/posts/welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is the first post in a Quarto blog. Welcome!</p>
+<p><img src="https://mariosmichailidis.github.io/Blog/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://mariosmichailidis.github.io/Blog/posts/welcome/</guid>
+  <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
