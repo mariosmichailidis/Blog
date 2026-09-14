@@ -1,0 +1,13 @@
+---
+title: "Day_1"
+author: "Marios Michailidis"
+date: "2026-09-14"
+categories: ["Day_1"]
+---
+
+This is my first post in my blog.
+Today we used git/github, branches and merged files.
+
+Here's a picture from sampling on Gotland.
+![](sheep_picture.jpg)
+

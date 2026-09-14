@@ -1,19 +1,16 @@
 ---
-title: "About"
-image: profile.jpg
+title: "Profile"
+image: profile_picture.jpg
 about:
   template: jolla
   links:
-    - icon: bluesky
-      text: Bluesky
-      href: https://bsky.app/
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/marios-lazaros-michailidis/
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/mariosmichailidis?tab=repositories
 
 ---
 
-About this blog
+Blog for the Reproducible research course
