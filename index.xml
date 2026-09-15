@@ -10,7 +10,30 @@
 <atom:link href="https://mariosmichailidis.github.io/Blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Mon, 14 Sep 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 15 Sep 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Day_2</title>
+  <dc:creator>Marios Michailidis</dc:creator>
+  <link>https://mariosmichailidis.github.io/Blog/posts/Day_2/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is the second day post. Today we did pixi and containers. I will try to describe the containers. <img src="https://mariosmichailidis.github.io/Blog/posts/Day_2/containers_picture.jpg" class="img-fluid"> No no, not these containers!</p>
+<p>Containers are something temporary. You can use one container-image (think of it as a flat object) and send it to a colleague. Container-images can be found and pulled from a trusted platforms (like dockerhub or seqera) or built from scratch. The colleague or whoever has access to the container-image can then run or execute it to build a container(think of it as a 3D object, that you can actually open the door of the container and enter inside). Once you enter the container, you can do things that were not possible outside of the container (for example, the container can use linux, while your operating system is Windows). If you decide to run the container (apptainer run), then the script is ran first. If you execute the container (apptainer exec), then you skip the script. We can also run/execute containers via sbatch.</p>
+<p>if we want to create a new container, then we need a definition file (.def). Then we can use “apptainer build” to create an image from the definition file. When the imgage is created, we can run/execute to run the container(open the door and enter).</p>
+<p>When we’re done with the container, we can “exit”. The container is gone now, so everything that was happening in there is gone too. But we can always rerun the image and create a new container.</p>
+<p>I think it’s correct lol</p>
+
+
+
+ ]]></description>
+  <category>Day_2</category>
+  <guid>https://mariosmichailidis.github.io/Blog/posts/Day_2/</guid>
+  <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Day_1</title>
   <dc:creator>Marios Michailidis</dc:creator>
