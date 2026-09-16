@@ -2,26 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mariosmichailidis.github.io/Blog/posts/post-with-code/index.html</loc>
-    <lastmod>2026-09-15T13:48:42.649Z</lastmod>
+    <lastmod>2026-09-16T11:44:16.544Z</lastmod>
   </url>
   <url>
     <loc>https://mariosmichailidis.github.io/Blog/posts/Day_1/index.html</loc>
-    <lastmod>2026-09-15T13:48:42.646Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mariosmichailidis.github.io/Blog/about.html</loc>
-    <lastmod>2026-09-15T13:48:42.645Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mariosmichailidis.github.io/Blog/index.html</loc>
-    <lastmod>2026-09-15T13:48:42.645Z</lastmod>
+    <lastmod>2026-09-16T11:44:16.541Z</lastmod>
   </url>
   <url>
     <loc>https://mariosmichailidis.github.io/Blog/posts/Day_2/index.html</loc>
-    <lastmod>2026-09-15T13:48:42.647Z</lastmod>
+    <lastmod>2026-09-16T11:44:16.542Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mariosmichailidis.github.io/Blog/index.html</loc>
+    <lastmod>2026-09-16T11:44:16.541Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mariosmichailidis.github.io/Blog/about.html</loc>
+    <lastmod>2026-09-16T11:44:16.541Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mariosmichailidis.github.io/Blog/posts/Day_3/index.html</loc>
+    <lastmod>2026-09-16T11:44:16.542Z</lastmod>
   </url>
   <url>
     <loc>https://mariosmichailidis.github.io/Blog/posts/welcome/index.html</loc>
-    <lastmod>2026-09-15T13:48:42.649Z</lastmod>
+    <lastmod>2026-09-16T11:44:16.544Z</lastmod>
   </url>
 </urlset>

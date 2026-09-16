@@ -14,6 +14,20 @@
     "text": "This is my first post in my blog. Today we used git/github, branches and merged files.\nHere’s a picture from sampling on Gotland."
   },
   {
+    "objectID": "posts/Day_2/index.html",
+    "href": "posts/Day_2/index.html",
+    "title": "Day_2",
+    "section": "",
+    "text": "This is the second day post. Today we did pixi and containers. I will try to describe the containers.  No no, not these containers!\nContainers are something temporary. You can use one container-image (think of it as a flat object) and send it to a colleague. Container-images can be found and pulled from a trusted platforms (like dockerhub or seqera) or built from scratch. The colleague or whoever has access to the container-image can then run or execute it to build a container(think of it as a 3D object, that you can actually open the door of the container and enter inside). Once you enter the container, you can do things that were not possible outside of the container (for example, the container can use linux, while your operating system is Windows). If you decide to run the container (apptainer run), then the script is ran first. If you execute the container (apptainer exec), then you skip the script. We can also run/execute containers via sbatch.\nif we want to create a new container, then we need a definition file (.def). Then we can use “apptainer build” to create an image from the definition file. When the imgage is created, we can run/execute to run the container(open the door and enter).\nWhen we’re done with the container, we can “exit”. The container is gone now, so everything that was happening in there is gone too. But we can always rerun the image and create a new container.\nI think it’s correct lol"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Marios Blog",
+    "section": "",
+    "text": "Day_3\n\n\n\nDay_3\n\n\n\n\n\n\n\n\n\nSep 16, 2026\n\n\nMarios Michailidis\n\n\n\n\n\n\n\n\n\n\n\n\nDay_2\n\n\n\nDay_2\n\n\n\n\n\n\n\n\n\nSep 15, 2026\n\n\nMarios Michailidis\n\n\n\n\n\n\n\n\n\n\n\n\nDay_1\n\n\n\nDay_1\n\n\n\n\n\n\n\n\n\nSep 14, 2026\n\n\nMarios Michailidis\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nSep 14, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 11, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Profile",
@@ -21,18 +35,11 @@
     "text": "Blog for the Reproducible research course"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Marios Blog",
+    "objectID": "posts/Day_3/index.html",
+    "href": "posts/Day_3/index.html",
+    "title": "Day_3",
     "section": "",
-    "text": "Day_2\n\n\n\nDay_2\n\n\n\n\n\n\n\n\n\nSep 15, 2026\n\n\nMarios Michailidis\n\n\n\n\n\n\n\n\n\n\n\n\nDay_1\n\n\n\nDay_1\n\n\n\n\n\n\n\n\n\nSep 14, 2026\n\n\nMarios Michailidis\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nSep 14, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 11, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/Day_2/index.html",
-    "href": "posts/Day_2/index.html",
-    "title": "Day_2",
-    "section": "",
-    "text": "This is the second day post. Today we did pixi and containers. I will try to describe the containers.  No no, not these containers!\nContainers are something temporary. You can use one container-image (think of it as a flat object) and send it to a colleague. Container-images can be found and pulled from a trusted platforms (like dockerhub or seqera) or built from scratch. The colleague or whoever has access to the container-image can then run or execute it to build a container(think of it as a 3D object, that you can actually open the door of the container and enter inside). Once you enter the container, you can do things that were not possible outside of the container (for example, the container can use linux, while your operating system is Windows). If you decide to run the container (apptainer run), then the script is ran first. If you execute the container (apptainer exec), then you skip the script. We can also run/execute containers via sbatch.\nif we want to create a new container, then we need a definition file (.def). Then we can use “apptainer build” to create an image from the definition file. When the imgage is created, we can run/execute to run the container(open the door and enter).\nWhen we’re done with the container, we can “exit”. The container is gone now, so everything that was happening in there is gone too. But we can always rerun the image and create a new container.\nI think it’s correct lol"
+    "text": "This is the third day post. Today we did nextflow and I will try to describe it.  Something like that!\nNextflow is a tool for creating and running workflows. A workflow is made up of different steps, called processes, that work together to analyse data. To pass the data, nextflow uses channels between these processes. The channels are like streams or queues that carry data from one process to another. For example, one process can create a file and send it through a channel to the next process, which then uses that file as input. Channels make it easier to connect the different steps of a workflow and process multiple files at the same time.\nPROCESSES can be written in capitals for easier identification. Each process has a name, input and output channels, and a script that defines what the process does. The script can be written in any programming language, like bash, python, or R.\nAgain, we use screen -r to have a screen session, so we can detach from it and it can still run in the background. But if we exit the screen, then everything is gone.\nIf we change something in the script, we can use -resume when we run the nextflow command, so it will only run the processes that have changed or their dependencies, so this can save a lot of time.\nI think that’s all for today!"
   },
   {
     "objectID": "posts/welcome/index.html",
