@@ -10,7 +10,34 @@
 <atom:link href="https://mariosmichailidis.github.io/Blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Wed, 16 Sep 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 17 Sep 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Day_4</title>
+  <dc:creator>Marios Michailidis</dc:creator>
+  <link>https://mariosmichailidis.github.io/Blog/posts/Day_4/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is the fourth day post. Today we used nf-core and rna_seq. <img src="https://mariosmichailidis.github.io/Blog/posts/Day_4/rnaseq_picture.png" class="img-fluid"> I stole that screenshot from the course site hihi.</p>
+<p>Okay so listen.</p>
+<p>nf-core is a website where smart people have created and uploaded pipelines for whatever project you want to do. For example, if you want to do RNA-seq, you can find a pipeline for that on nf-core. We used nextflow to run the pipeline. First we had to link the data files to our own folder/directory and work from there. To do that we used pixi (nextflow needs pixi) so the command was something like that: pixi run nextflow run nf-core/sarek -profile test –outdir sarek_test -c hpc2n.config</p>
+<p>Then we had to do it all over on our own. We linked the data files using: ln -s SOURCE TARGET</p>
+<p>Then on the nf-core/rnaseq homepage, we used the launcher to build the json file we used later. The json file is a configuration file that tells the pipeline what to do and where to find the data. To build it we had to give the input and output absolute paths. Later we were asked for the –fasta and –gtf files (absolute paths again), which are reference files for the genome and gene annotations. We downloaded them using wget to a directory for databases. We get the json file by clicking the “launch” button.</p>
+<p>Finally we had to run the pipeline using pixi and nextflow, like that: pixi run nextflow run nf-core/rnaseq -r 3.26.0 -params-file nf-params.json -c hpc2n.config</p>
+<p>Sidenote: Both config and json files have parameters. Config is for the server and json is for the pipeline.</p>
+<p>Last step: BE PATIENT</p>
+<p>PS: remember to use a screen session so you can detach and let it run in the background. You enter a screen with screen -s, and detach with ctrl+a+d.&nbsp;To reattach, use screen -r. If you exit the screen, everything is gone.</p>
+
+
+
+ ]]></description>
+  <category>Day_4</category>
+  <guid>https://mariosmichailidis.github.io/Blog/posts/Day_4/</guid>
+  <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Day_3</title>
   <dc:creator>Marios Michailidis</dc:creator>
